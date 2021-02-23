@@ -20,6 +20,26 @@ There is an example graph given below where the node 0 is JH, node 5 is JD, node
 The lines below gives the edge information as: source node, target node, weight respectively.
 You must use the adjacency matrix representation for the graph construction. The txt file for graph input must be given as a command line argument.
 
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=-fKUyT14G-8"
+     target="_blank">
+    <img src="http://img.youtube.com/vi/-fKUyT14G-8/0.jpg"
+         alt="DeepMind open source PySC2 toolset for Starcraft II"
+         width="240" height="180" border="10" />
+  </a>
+  <a href="https://www.youtube.com/watch?v=6L448yg0Sm0"
+     target="_blank">
+    <img src="http://img.youtube.com/vi/6L448yg0Sm0/0.jpg"
+         alt="StarCraft II 'mini games' for AI research"
+         width="240" height="180" border="10" />
+  </a>
+  <a href="https://www.youtube.com/watch?v=WEOzide5XFc"
+     target="_blank">
+    <img src="http://img.youtube.com/vi/WEOzide5XFc/0.jpg"
+         alt="Trained and untrained agents play StarCraft II 'mini-game'"
+         width="240" height="180" border="10" />
+  </a>
+</div>
 
 # PART 2 – Implementing the algorithm
 
