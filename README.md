@@ -1,5 +1,5 @@
 # Problem Description
-```
+
 
 Joseph and Lucy are best friends and they have arranged a travel together two months
 ago and reserved their flying tickets. However unfortunately, in this two months, they
@@ -10,20 +10,27 @@ during the travel. Also, when going around the city, they do not want to run aga
 other. That is why we must arrange their routes from their hotels to the their
 destinations and from destinations to the hotels for one day. The rules are listed below:
 
+
 ```
- The city map is represented as a directed and weighted graph where nodes
+The city map is represented as a directed and weighted graph where nodes
 are places and edges are roads. Edge weights are the lengths of roads.
- Two of the nodes are Joseph’s hotel (JH) and Lucy’s hotel (LH). The other two
+
+Two of the nodes are Joseph’s hotel (JH) and Lucy’s hotel (LH). The other two
 of the nodes are the destination for Joseph (JD) and destination for Lucy (LD).
- If there is a path from node A to B with length of n, then it takes n minutes to
+
+If there is a path from node A to B with length of n, then it takes n minutes to
 get to B from A. Assume that the speed of the Lucy and Joseph are the same.
- Joseph and Lucy leave their hotels at the same time and they must not be in
+
+Joseph and Lucy leave their hotels at the same time and they must not be in
 the same node at the same time.
- They spend 30 minutes at the destination before returning their hotels.
+
+They spend 30 minutes at the destination before returning their hotels.
+
+```
 
 # PART 1 – Constructing the Graph
 
-```
+
 You are supposed to find the shortest paths from hotels to destinations and
 destinations to the hotels that are not intersecting considering the instant locations of
 Joseph and Lucy.
@@ -39,11 +46,8 @@ respectively.
 You must use the adjacency matrix representation for the graph construction. The txt
 file for graph input must be given as a command line argument.
 
-```
-
 # PART 2 – Implementing the algorithm
 
-```
 
 You are supposed to implement a shortest path algorithm (i.e. Dijkstra). You need to
 find 4 shortest paths for each input as:
@@ -108,23 +112,25 @@ second iteration for alternative path search.)
 ```
 ```
 Node 0 1 4 5
+
 Time 0 4 7 20
-```
-```
+
 Node 2 3 1 4
+
 Time 0 10 15 18
-```
-```
+
 Node 5 6 2 3 1 0
+
 Time 50 56 58 68 73 79
-```
-```
+
 Node 4 3 6 2
+
 Time 48 49 56 58
-```
-```
+
 Node 4 3 1 0 2
+
 Time 48 49 54 60 68
+
 ```
 
 
